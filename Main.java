@@ -30,6 +30,12 @@ public class Main {
             nouveauPoids = Poids * 2.20462262;
             System.out.printf("Le nouveau Poids en lbs est :%.2f",nouveauPoids);
         }
+        else{
+            System.out.println("Ce n'était pas un choix valable ");
+        }
+        
+
+        
         f.close();
    }
 }
